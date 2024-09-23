@@ -1,8 +1,10 @@
 # Sito in manutenzione, torneremo a breve!
 
+## Siamo chiusi per ferie fino al 2 settembre compreso
+
 ## Official danyshowroom.com website
 
-Social:
-https://instagram.com/danyshowroom
-https://facebook.com/danyshowroom.alpignano/
-https://x.com/danyshowroom
+Social:  
+[Instagram](https://instagram.com/danyshowroom)  
+[Facebook](https://facebook.com/danyshowroom.alpignano/)  
+[X(Twitter)](https://x.com/danyshowroom)  
