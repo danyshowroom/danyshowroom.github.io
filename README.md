@@ -1,7 +1,5 @@
 # Sito in manutenzione, torneremo a breve!
 
-## Siamo chiusi per ferie fino al 2 settembre compreso
-
 ## Official danyshowroom.com website
 
 Social:  
