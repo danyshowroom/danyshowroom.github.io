@@ -1,12 +1,11 @@
-# Sito in manutenzione, torneremo a breve!
+# Danyshowroom Official Website
+## Sito in manutenzione, torneremo a breve!
 
-## Official danyshowroom.com website
+### Contatti:
+Email: info@danyshowroom.com  
+Numero di telefono: +39 329 226 5651  
 
-Contatti:
-Email: info@danyshowroom.com
-Numero di telefono: +39 329 226 5651
-
-Social:  
+### Social:
 [Instagram](https://instagram.com/danyshowroom)  
 [Facebook](https://facebook.com/danyshowroom.alpignano/)  
 [X(Twitter)](https://x.com/danyshowroom)  
