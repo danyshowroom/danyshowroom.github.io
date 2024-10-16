@@ -1,6 +1,6 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <script type="importmap">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">  <script type="importmap">
     {
       "imports": {
         "@material/web/": "https://esm.run/@material/web/"
@@ -27,39 +27,26 @@
     <nav>
       <div>
         <md-filled-button class="active" href="#">Home</md-filled-button>
-        <md-filled-button href="#">About</md-filled-button>
-        <md-filled-button href="#">Services</md-filled-button>
-        <md-filled-button href="#">Contact</md-filled-button>
+        <md-filled-button href="#">Contatti</md-filled-button>
       </div>
-      <md-filled-icon-button onclick="ThemeBtnClick()">
-        <md-icon id="themeBtnIcon" class="material-symbols-rounded">dark_mode</md-icon>
-      </md-filled-icon-button>
-      <button class="button" onclick="javascript:void(0);"></button>
-        <span id="themeBtnIcon" class="material-symbols-rounded">
-          menu
-        </span>
-      </button>
+      <div>
+        <md-filled-icon-button onclick="ThemeBtnClick()">
+          <md-icon id="themeBtnIcon" class="material-symbols-rounded">dark_mode</md-icon>
+        </md-filled-icon-button>
+        <md-filled-icon-button onclick="javascript:void(0);">
+          <md-icon id="themeBtnIcon" class="material-symbols-rounded">menu</md-icon>
+        </md-filled-icon-button>
+      </div>
     </nav>
 
-    <h1 class="md-typescale-display-medium">Hello Material!</h1>
-    <form>
-      <p class="md-typescale-body-medium">Check out these controls in a form!</p>
-      <md-checkbox></md-checkbox>
-      <div>
-        <md-radio name="group"></md-radio>
-        <md-radio name="group"></md-radio>
-        <md-radio name="group"></md-radio>
+
+    <div class="HomeTitle">
+      <div class="TitleCard">
+        <img class="MainLogo" src="assets/imgs/logo_trasp.png"></img>
+        <h1 class="md-typescale-title-medium title">Danyshowroom</h1>
+        <h2 class="md-typescale-display-small">Join the fashion movement</h2>
+        <md-icon class="material-symbols-rounded HomeArrow">arrow_downward</md-icon>
       </div>
-      <md-outlined-text-field label="Favorite color" value="Purple"></md-outlined-text-field>
-      <md-outlined-button type="reset">Reset</md-outlined-button>
-    </form>
-    <style>
-      form {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-      }
-    </style>
+    </div>
   </div>
 </body>
