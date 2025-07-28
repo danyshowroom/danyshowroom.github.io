@@ -1,5 +1,5 @@
 # Danyshowroom Official Website
-## Sito in manutenzione, torneremo a breve!
+## Sito ancora in fase di sviluppo
 
 ### Contatti:
 Email: info@danyshowroom.com  

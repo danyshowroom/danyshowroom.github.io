@@ -57,7 +57,6 @@ nav md-filled-button {
     margin-right: 5px;
 }
 
-
 .button {
     background: var(--md-sys-color-primary);
     height: 40px;
@@ -82,8 +81,7 @@ nav md-filled-button {
 
 /* Home */
 .HomeTitle {
-    margin: 30px 4% 0px 4%;
-    height: 85vh;
+    margin: 30px 4% 30px 4%;
 }
 
 .TitleCard {
@@ -145,16 +143,23 @@ nav md-filled-button {
     font-size: 18px;
     font-family: var(--my-plain-font);
 }
+
 .social-button i {
     margin-right: 15px;
 }
+
 .social-button:hover {
     background-color: var(--md-sys-color-primary);
     color: #000;
 }
 
-.contacts {
+.normal-text {
     font-family: var(--my-plain-font);
+}
+
+.location-text {
+    font-family: var(--my-plain-font);
+    font-size: 21;
 }
 
 .contact {
@@ -162,7 +167,62 @@ nav md-filled-button {
     color: white;
 }
 
-.Maps {
-    height: 400px;
-    width: 70%;
+.locations-container {
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    row-gap: 60px;
+}
+
+.location {
+    flex: 1 1 48.5%;
+    min-width: 300px;
+}
+
+.location .Maps {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 20px;
+}
+
+
+.weekly-hours {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #3339;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+  
+.weekly-hours h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    color: #fff;
+}
+  
+.weekly-hours ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.weekly-hours li {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+  
+.weekly-hours li:last-child {
+    border-bottom: none;
+}
+  
+.weekly-hours span {
+    font-size: 1rem;
+    color: #eee;
 }
