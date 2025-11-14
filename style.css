@@ -169,23 +169,39 @@ nav md-filled-button {
 
 .locations-container {
     margin: 0px 20px 0px 20px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    row-gap: 60px; */
+}
+
+/*.location {
+    flex: 1 1 48.5%;
+    min-width: 300px;
+}*/
+
+.Maps {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 20px;
+    min-height: 300px;
+}
+
+.loc-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
     row-gap: 60px;
+    height: 100%;
 }
 
-.location {
+.loc-item {
+    width: 100%;
     flex: 1 1 48.5%;
     min-width: 300px;
-}
-
-.location .Maps {
-    width: 100%;
-    height: 300px;
-    border: 0;
-    border-radius: 20px;
 }
 
 
@@ -196,7 +212,6 @@ nav md-filled-button {
     backdrop-filter: blur(5px);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
-    margin-top: 20px;
 }
   
 .weekly-hours h3 {
